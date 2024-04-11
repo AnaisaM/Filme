@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.pai{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: rgb(245, 242, 253);
+}
+.menu{
+	width: 100%;
+	height: 12vh;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	
+}
+
+.linkmenu{
+	margin-top: 5vh;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: Helvética, sans-serif;
+	font-size: 2vh;
+	letter-spacing: 0.2vh;
+	font-weight: bold;
+}
+.fundo{
+	width: 100%;
+	height: 80vh;
+	margin-top: 1vh;
+	background: url('../img/banner.jpeg');
+}
+.title{
+	text-align: center;
+	margin-top: 25vh;
+	font-size: 15vh;
+	color: white;
+}
+.subtitle{
+	text-align: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.5vh;
+	color: white;
+	font-size: 3vh;
+}
+.cartaz{
+	width: 25%;
+	height: 70vh;
+	margin-top: 8vh;
+	margin-left: 18vh;
+	box-shadow: 15px 15px 30px ;
+}
+.cartaz img{
+	width: 100%;
+	height: 100%;
+}
+.fig{
+	margin-top: 3vh;
+	margin-left: 2vh;
+	font-family: 'Selena Gomez', sans-serif;
+	font-size: 2.8vh;
+	line-height: 4vh;
+	color: rgb(82, 82, 82);
+}
+.sobre{
+	width: 60%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10vh;
+	margin-top: 7vh;
+	line-height: 4vh;
+}
+.sobre h2{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 4vh;
+	text-align: center;
+	margin-bottom: 5vh;
+	letter-spacing: 0.3vh;
+
+}
+.sobre p{
+	text-align: center;
+	font-family: 'Selena Gomez', sans-serif;
+	font-size: 3vh;
+	color: rgb(82, 82, 82);
+}
+.noticias h2{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 4vh;
+	margin-bottom: 8vh;
+	letter-spacing: 0.3vh;
+	
+}
+.noticias{
+	width: 80%;
+	height: 12vh;
+	margin-top: 15vh;
+}
+.not{
+	display: flex;
+	flex-direction: row;
+}
+.not h2{
+	font-size: 10vh;
+	font-family: serif;
+	letter-spacing: 0vh;
+}
+.not hr{
+	width: 85%;
+	height: 0%;
+	margin-left: 2vh;
+	margin-top: 7vh;
+	border: 0.22vh solid#000000;
+}
+.queda h3{
+	font-size: 4vh;
+	font-family: 'Selena Gomez', sans-serif;
+	margin-bottom: 2vh;
+	color: rgb(24, 24, 24);
+}
+.queda p{
+	font-family: 'Selena Gomez', sans-serif;
+	color: rgb(82, 82, 82);
+	font-size: 3vh;
+	line-height: 5vh;
+}
+.fala{
+	width: 40%;
+	height: 55vh;
+	margin-top: 5vh;
+	margin-bottom: 16vh;
+}
+.aspas{
+	font-size: 14vh;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+	'Lucida Sans', Arial, serif;
+}
+.fala p{
+	font-size: 3.5vh;
+	margin-left: 6vh;
+	color: #000000;
+}
+.notimg{
+	width: 57%;
+	height: 60vh;
+	margin-left: 5vh ;
+	margin-top: 2vh;
+}
+.notimg img{
+	width: 100%;
+	height: 100%;
+}
+.p2{
+	margin-bottom: 5vh;
+}
+.queda{
+	width: 80%; 	
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 6vh
+}
+.notimg3{
+	margin-top: 12vh;
+	margin-left: 10vh;
+}
+.foot{
+	width: 100%;
+	height: 12vh;
+	margin-top: 20vh;
+	background-color: rgb(0, 0, 0);
+	text-align: center;
+}
+.foot p{
+	color: white;
+	margin-top: 5vh;
+	font-family: 'Selena Gomez', sans-serif;
+}
+.elencotitulo{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.trailer{
+	width: 100%;
+	height: 62.3vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.elenco{
+	font-size: 12vh;
+	text-align: center;
+}
+.subt{
+	letter-spacing: 0.05vh;
+	text-align: center ;
+	margin-top: 5vh;
+	font-family: 'Selena Gomez', sans-serif;
+	line-height: 4vh;
+}
+.atores{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+.perfil1{
+	width: 28%;
+	height: 84vh;
+	margin-bottom: 15vh;
+	background: url('../img/enzo.jpeg') ;
+	border-radius: 1vh;
+}
+.perfil2{
+	width: 28%;
+	height: 84vh;
+	margin-bottom: 15vh;
+	background: url('../img/matias.jpeg') ;
+	border-radius: 1vh;
+}
+.perfil3{
+	width: 28%;
+	height: 84vh;
+	margin-bottom: 15vh;
+	background: url('../img/simon.jpg') ;
+	border-radius: 1vh;
+}
+.perfil4{
+	width: 28%;
+	height: 84vh;
+	margin-bottom: 15vh;
+	background: url('../img/rafael..jpg') ;
+	border-radius: 1vh;
+}
+.perfil5{
+	width: 28%;
+	height: 84vh;
+	margin-bottom: 15vh;
+	background: url('../img/andy.jpeg') ;
+	border-radius: 1vh;
+}
+.perfil6{
+	width: 28%;
+	height: 84vh;
+	margin-bottom: 15vh;
+	background: url('../img/agustini.jpeg') ;
+	border-radius: 1vh;
+}
+.foto{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	
+	border-radius: 1vh 1vh 0vh 0vh;
+}
+.nome{
+	font-size: 4vh;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.1vh;
+	margin-top: 52vh;
+	color: rgb(255, 255, 255);
+	
+}
+.info{
+	width: 100%;
+	height: 25vh;
+	border-radius: 0vh 0vh 1vh 1vh;
+	
+}
+.p{
+	font-family:  'Selena Gomez', sans-serif;
+	letter-spacing: 0.05vh;
+	line-height: 4.5vh;
+	margin-left: 2vh;
+	color: rgb(245, 243, 243);
+}
+.todoelenco{
+	font-family:  'Selena Gomez', sans-serif;
+	letter-spacing: 0.05vh;
+	line-height: 5vh;
+	margin-right: 122vh;
+	
+}
+.sip{
+	font-size: 3.5vh;
+}
+.video{
+	width: 75%;
+	height: 85vh;
+}
+iframe{
+	width: 100%;
+	height: 100%;
+	border-radius: 2vh;
+}
